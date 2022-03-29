@@ -44,6 +44,8 @@
            <h1>WANT AN OFFER?</h1>
             <div class="row row-cols-2">
             <div class="container"class="col">
+              <fieldset>
+                <form action="/main.js">
                 <label for="fname">First name:</label><br>
                 <input type="text" id="fname" name="fname" value=""><br></div>
             <div class="container"class="col">
@@ -53,7 +55,7 @@
                   <label for="email">Email address:</label><br>
                   <input type="text" id="email" name="email" value=""><br></div>
             <div class="container"class="col">
-                  <label for="Hour requested">Hour requested:</label><br>
+                  <label for="Hour">Hour requested:</label><br>
                   <input type="text" id="hour" name="hour" value=""><br></div>
                   <label for="cars">Type of work:</label>
             <select id="work" name="work">
@@ -67,17 +69,13 @@
               <label for="code">Massage:
               <textarea name="message" rows="10" cols="30"> </textarea><br><br>
             </label>
-              <button type="button" onclick="alert('Hello ')">Send</button>
+            <input type="submit" value="Submit">
+          </fieldset>
+        </form>
             </div>
-
-           
-
-          </div>
-
-
-      </main>
-    
-    
+           </div>
+          </main>
       <!-- fine main -->
+      <script type="text/javascript" src="main.js"></script>
     </body>
     </html>
